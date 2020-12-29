@@ -1,0 +1,82 @@
+
+
+
+.container{
+    display: grid;
+    grid-gap: 10px;
+    margin : 0 auto ;
+    width: 1200px; 
+
+}
+
+
+
+
+.me{
+    display: flex;
+    align-items: center;
+     height:300px;
+  
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.skills{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 10px;
+    height: 300px;
+  
+}
+
+.contact{
+    
+   display: grid;
+   grid-template-rows: repeat(2,1f);
+   justify-content: center;
+   height:300px;
+   
+     
+}
+img{
+    vertical-align: middle;
+
+ 
+}
+.link{
+   
+    display: grid;
+    grid-template-rows: repeat(2,1fr); 
+    justify-content: center;
+    align-items: center;
+    height:300px;
+}
+.project{
+   
+    height:max-content;
+}
+
+.footer{
+    width: 1200px;
+    height: max-content;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #12a4d9;
+  }
+  
+  li {
+     
+    float: left;
+  }
+  
+  

@@ -38,14 +38,14 @@
 .contact{
     
    display: grid;
-   grid-template-rows: repeat(2,1f);
+   grid-template-rows: repeat(2,1fr);
    justify-content: center;
    height:300px;
    
      
 }
 img{
-    vertical-align: middle;
+    vertical-align:middle;
 
  
 }

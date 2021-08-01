@@ -2,9 +2,18 @@
 
 body{
     
-    background-color:#e2d810;
-    
+    /* background-color:#e2d810; */
+    background-image: url(/miminina89.github.io/image/6.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%, cover;
+    overflow: auto;
+    overflow-x: hidden;
+   
+   
 }
+
 li a {
     display: block;
     color: white;
@@ -36,6 +45,9 @@ li a {
     
     
 
+}
+.test{
+    background-image: url(/miminina89.github.io/image/7.png);
 }
 h1{
     text-align: center;
